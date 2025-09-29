@@ -8,8 +8,10 @@ def home():
 
 @app.get("/hello")
 def say_hello():
-    return {"message": "Hello from main branch!"}
+        return {"message": "Hello merged version!"}
 
+
+#wassup noon
 todos = []
 
 @app.get("/todos")
