@@ -8,7 +8,7 @@ def home():
 
 @app.get("/hello")
 def say_hello():
-    return{"massage:hello from TODOFASTAPI"}
+    return {"message": "Hello from main branch!"}
 
 todos = []
 
